@@ -1,0 +1,43 @@
+/* Universal style */
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+
+  opacity: 0.9;
+  text-align: center;
+  background-color: black;
+}
+
+/*Navigation bar*/
+header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  margin: -30px -10px;
+  position: fixed;
+  z-index: 20;
+
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+}
+#logo {
+  display: inline-flex;
+  height: 50px;
+  margin-left: 10px;
+}
+nav {
+  display: inline-flex;
+  margin-right: 10px;
+}
+nav span {
+  display: inline-block;
+  text-align: right;
+  margin-left: 20px;
+}
+nav a {
+  color: seashell;
+  text-decoration: underline;
+}
